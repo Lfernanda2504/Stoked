@@ -143,12 +143,11 @@ a:visited{
   }
 
   .container-categories{
-    height: 180.9505615234375px;
-    width: 1449px;
+    width: 100%;
     left: 31px;
     top: 1547px;
     border-radius: 0px;
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 2rem;
   }
   .content-categories
