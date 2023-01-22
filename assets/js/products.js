@@ -19,13 +19,15 @@ const insertCard = ()=>{
     Card =""
     dataApi.forEach(list => {
         Card += `
-        <div class="card">
+        <div class="container-product">
         <div class="content-img">
           <img src="${list.image}" alt="img-banner">
         </div>
-        <Strong><h3>${list.nombre} <h3></strong>
+        <div class="content-description">
+        <h3>${list.nombre} <h3>
         <div class="content-price">
-          <h6>${list.precio.antes}</h6> <h3>${list.precio.ahora}</h3>
+          <span>${list.precio.antes}</span> <h3>$ ${list.precio.ahora}</h3>
+        </div>
         </div>
     </div> 
     ` 
