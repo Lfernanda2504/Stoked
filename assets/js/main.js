@@ -1,3 +1,10 @@
+const collapse = document.querySelector('.collapse');
+const navbar= document.querySelector('.navbar');
+
+collapse.addEventListener('click', () => {
+  navbar.classList.toggle('hide');
+});
+
  $(document).ready(function(){
     const bannerSlide = $("#owl-banner-slide");
     bannerSlide.owlCarousel({

@@ -39,6 +39,18 @@ body{
     color: var(--nav-color);
     padding: 1.5rem;
 }
+.panel-header a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.panel-header .panel-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .panel-icons a{
     width: 24px;
     height: 24px;
@@ -131,6 +143,10 @@ a:visited{
 
 .btn-search{
     border: none;
+    background-color: transparent;
+}
+.collapse{
+  display: none;
 }
 
 
